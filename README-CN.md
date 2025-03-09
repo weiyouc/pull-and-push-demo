@@ -52,8 +52,8 @@ flowchart LR
     A -->|4. 推送| D[(远程仓库)]
     D -->|5. 拉取| A
 
-    style A fill:#e6f3ff,stroke:#3385ff
-    style D fill:#ffe6e6,stroke:#ff3333
+    style A fill:#99ccff,stroke:#0066cc
+    style D fill:#ff9999,stroke:#cc0000
     classDef gitCommand fill:#f0f0f0,stroke:#666,stroke-width:1px;
     class A,D gitCommand
 ```
